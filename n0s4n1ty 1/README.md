@@ -14,7 +14,8 @@ In this challenge, the task is to exploit a web vulnerability in a file upload f
    The challenge presents a file upload feature where a user can upload a profile picture. However, there is a flaw in the implementation: the uploaded files are not sanitized, which means we can upload arbitrary files, including PHP scripts.
 
 ### 2. **Upload a Malicious PHP Web Shell**
-   The first step is to upload a PHP shell to the server. We can use the following PHP code for a simple web shell:
+   The first step is to upload a PHP shell to the server. We can use the following PHP code for a simple web shell, [PHP File to upload](shell.php)
+:
 
    ```php
    <?php

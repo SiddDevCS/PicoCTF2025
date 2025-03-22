@@ -1,7 +1,3 @@
-Sure! Here's a well-structured **README.md** for your GitHub repository, explaining the step-by-step process for solving the **picoCTF SSTI1** challenge.  
-
----
-
 # picoCTF SSTI1 Challenge Write-up  
 
 ## Challenge Description  

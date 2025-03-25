@@ -1,4 +1,3 @@
-```markdown
 # Red CTF Write-Up - PicoCTF 2025
 
 **Category:** Forensics  
@@ -119,5 +118,3 @@ By following these steps—inspecting the image's metadata, analyzing it for ste
 - `exiftool`
 - `zsteg`
 - `base64`
-
-```
